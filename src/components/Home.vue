@@ -25,10 +25,6 @@
       }
     },
     methods: {
-      signOut() {        
-          this.$store.commit("signOut")
-          this.$router.push({ name: 'Login' })      
-      },
     },
     created: function () {
         console.log(this.$store.state)
